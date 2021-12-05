@@ -7,6 +7,23 @@
     tools:context=".CreateProfile"
     android:background="@color/background">
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/get_started2"
+        android:layout_width="237dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="@font/rockwell_bold"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        app:layout_constraintVertical_bias="1.0"></androidx.appcompat.widget.AppCompatButton>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="410dp"

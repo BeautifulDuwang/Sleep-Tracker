@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SleepTracker">
         <activity
+            android:name=".TrackerPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
             android:name=".CreateProfile"
             android:exported="false" />
         <activity
