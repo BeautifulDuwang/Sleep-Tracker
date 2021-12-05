@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SleepTracker">
         <activity
+            android:name=".TipsPage"
+            android:exported="false" />
+        <activity
             android:name=".TrackerPage"
             android:exported="false" />
         <activity

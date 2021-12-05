@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sleep Tracker</string>
+    <string name="person_tips">-You are sleeping less than your recommended amount.\n-Try to increase your sleep time to meet the regular average.</string>
 </resources>
