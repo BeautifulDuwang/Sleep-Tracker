@@ -31,8 +31,8 @@ public class MainPage extends AppCompatActivity {
         startActivity(intent);
     }
 
-//    public void goToProfile(View view){
-//        Intent intent = new Intent(getApplicationContext(), ProfilePage.class);
-//        startActivity(intent);
-//    }
+    public void goToProfile(View view){
+        Intent intent = new Intent(getApplicationContext(), ProfilePage.class);
+        startActivity(intent);
+    }
 }

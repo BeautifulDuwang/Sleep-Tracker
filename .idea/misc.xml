@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable-v24/lightgraysquare.xml" value="0.3828125" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/button_background.xml" value="0.3828125" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/button_focus.xml" value="0.3828125" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/drawable/button_press.xml" value="0.3828125" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_create_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_main_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_profile_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_sleep_tips.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Danny/AndroidStudioProjects/SleepTracker/app/src/main/res/layout/activity_tracker_page.xml" value="0.5" />
       </map>
