@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/enterAge"
         android:layout_width="186dp"
         android:layout_height="36dp"
         android:layout_marginTop="56dp"
@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/enterName" />
 
     <TextView
         android:id="@+id/textView4"
@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@+id/addImage" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/enterName"
         android:layout_width="186dp"
         android:layout_height="36dp"
         android:layout_marginTop="56dp"
@@ -113,7 +113,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/enterWeight"
         android:layout_width="186dp"
         android:layout_height="36dp"
         android:layout_marginTop="48dp"
@@ -126,6 +126,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/enterAge" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
