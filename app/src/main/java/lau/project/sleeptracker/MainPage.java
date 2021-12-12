@@ -10,15 +10,48 @@ import android.widget.Button;
 public class MainPage extends AppCompatActivity {
 
     Button slpTracker, slpTips, profile;
+    String name, age, weight;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null){
+            name = extras.getString("name");
+            age = extras.getString("age");
+            weight = extras.getString("weight");
+        }
+
+        if (age != null){
+            determineSleep(age);
+        }
+
         slpTracker = findViewById(R.id.btn1);
         slpTips = findViewById(R.id.btn2);
         profile = findViewById(R.id.btn3);
+    }
+
+    public int determineSleep(String age){
+        int num;
+        int nage = Integer.parseInt(age);
+        if(nage < 6){
+            num = 13;
+        }
+        else if(nage <= 12) {
+            num = 11;
+        }
+        else if(nage <= 18){
+            num = 8;
+        }
+        else if(nage < 60){
+            num = 7;
+        }
+        else {
+            num = 8;
+        }
+        return num;
     }
 
     public void goToTracker(View view){
