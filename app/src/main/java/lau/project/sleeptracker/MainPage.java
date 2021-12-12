@@ -6,16 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainPage extends AppCompatActivity {
 
     Button slpTracker, slpTips, profile;
     String name, age, weight;
+    int hours;
+    TextView ave;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
+
+        ave = findViewById(R.id.average);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null){
@@ -25,8 +30,10 @@ public class MainPage extends AppCompatActivity {
         }
 
         if (age != null){
-            determineSleep(age);
+            hours = determineSleep(age);
         }
+
+        ave.setText(hours);
 
         slpTracker = findViewById(R.id.btn1);
         slpTips = findViewById(R.id.btn2);
@@ -66,6 +73,9 @@ public class MainPage extends AppCompatActivity {
 
     public void goToProfile(View view){
         Intent intent = new Intent(getApplicationContext(), ProfilePage.class);
+        intent.putExtra("name", name);
+        intent.putExtra("age", age);
+        intent.putExtra("weight", weight);
         startActivity(intent);
     }
 }
