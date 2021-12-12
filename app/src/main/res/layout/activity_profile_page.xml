@@ -59,6 +59,7 @@
         android:layout_marginTop="44dp"
         android:background="@color/light_gray"
         android:fontFamily="@font/rockwell"
+        android:onClick="setImage"
         android:text="Upload\nan\nImage..."
         android:textAllCaps="false"
         android:textColor="@color/black"
