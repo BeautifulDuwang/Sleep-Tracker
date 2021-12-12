@@ -51,7 +51,7 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon2" />
 
     <EditText
         android:id="@+id/editTextTextPersonName15"
@@ -66,10 +66,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/Wed2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="56dp"
@@ -81,10 +81,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName19"
+        android:id="@+id/Wed1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="20dp"
@@ -143,7 +143,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/Fri1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="56dp"
@@ -155,7 +155,7 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName15"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19" />
+        app:layout_constraintTop_toBottomOf="@+id/Wed1" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
@@ -170,10 +170,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName21"
+        android:id="@+id/Thu2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="20dp"
@@ -215,10 +215,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName24"
+        android:id="@+id/Fri2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
@@ -230,10 +230,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName21" />
+        app:layout_constraintTop_toBottomOf="@+id/Thu2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName18"
+        android:id="@+id/Tue1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
@@ -245,10 +245,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName26"
+        android:id="@+id/Thu1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
@@ -260,7 +260,7 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName15"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19" />
+        app:layout_constraintTop_toBottomOf="@+id/Wed1" />
 
     <TextView
         android:id="@+id/textView48"
@@ -289,7 +289,7 @@
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textSize="26dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toStartOf="@+id/Mon2"
         app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
     <EditText
@@ -305,10 +305,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName25"
+        android:id="@+id/Sun2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
@@ -320,7 +320,7 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName22" />
+        app:layout_constraintTop_toBottomOf="@+id/Sat2" />
 
     <TextView
         android:id="@+id/textView45"
@@ -354,7 +354,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName29"
+        android:id="@+id/Sun1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="20dp"
@@ -365,8 +365,8 @@
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textSize="26dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName25"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName27" />
+        app:layout_constraintEnd_toStartOf="@+id/Sun2"
+        app:layout_constraintTop_toBottomOf="@+id/Sat1" />
 
     <TextView
         android:id="@+id/textView49"
@@ -384,7 +384,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/Mon2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
@@ -399,7 +399,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView43" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName22"
+        android:id="@+id/Sat2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="20dp"
@@ -411,10 +411,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName24" />
+        app:layout_constraintTop_toBottomOf="@+id/Fri2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName27"
+        android:id="@+id/Sat1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="104dp"
@@ -426,10 +426,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName15"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName19" />
+        app:layout_constraintTop_toBottomOf="@+id/Wed1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/Tue2"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
@@ -441,10 +441,10 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Mon2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/Mon1"
         android:layout_width="60dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
@@ -455,7 +455,7 @@
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textSize="26dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toStartOf="@+id/Mon2"
         app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
     <ImageView
@@ -957,5 +957,96 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView22"
         app:layout_constraintStart_toStartOf="@+id/imageView22"
         app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/M_T"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/W_R"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/F_S"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/Su_M"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/T_W"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/R_F"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/S_Su"
+        android:layout_width="42dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rockwell"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
